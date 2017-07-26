@@ -1,3 +1,5 @@
+Data used in [Challenges in Data-to-Document Generation](https://arxiv.org/abs/1707.08052) (Wiseman, Shieber, Rush; EMNLP 2017). If you use this data, please cite the above paper.
+
 # Data
 This dataset consists of (human-written) NBA basketball game summaries aligned with their corresponding box- and line-scores. Summaries taken from rotowire.com are referred to as the "rotowire" data, and summaries taken from sbnation.com (and associated team-specific sites) are referred to as the "sbnation" data; we treat these sub-datasets separately, since they are quite different. 
 
