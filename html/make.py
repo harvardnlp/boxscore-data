@@ -145,7 +145,7 @@ def main(arguments):
             # if w.strip() == ".":
             #     f.write("<br>")
         f.write("</div>")
-        f.write("<center> <input type='button' value=\"skip\" onclick=\"tab_select('')\"></center>")
+        f.write("<br> <center> <input type='button' value=\"skip\" onclick=\"tab_select('')\"></center><br> ")
         print_table(f, line, seen)
         print_table(f, stats, seen)
 
