@@ -1,5 +1,7 @@
 Data used in [Challenges in Data-to-Document Generation](https://arxiv.org/abs/1707.08052) (Wiseman, Shieber, Rush; EMNLP 2017). If you use this data, please cite the above paper.
 
+**Update (9/3/20):** Please consider using the [SportSett:Basketball dataset](https://github.com/nlgcat/sport_sett_basketball) rather than the standard Rotowire dataset described below. Among other things, SportSett:Basketball corrects some dataset contamination issues, where box- and line-scores appear in multiple splits.
+
 **Update (1/22/18):** Thanks to @janenie for pointing out that some of the line-scores in the data (which report team-level stats) had the team names flipped. Player-level information was not affected. These examples have now been unflipped.  
 
 # Data
