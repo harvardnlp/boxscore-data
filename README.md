@@ -14,7 +14,7 @@ To extract the data, run `tar -jxvf rotowire.tar.bz2` to form a rotowire/ direct
 The rotowire data can be found in rotowire/[train|valid|test].json. There are 4853 distinct rotowire summaries, covering NBA games played between 1/1/2014 and 3/29/2017; some games have multiple summaries. The summaries have been randomly split into training, validation, and test sets consisting of 3398, 727, and 728 summaries, respectively. 
 
 ## SBNation Data
-The sbnation data can be found in sbnation/[train|valid|test].json. There are 10903 distinct rotowire summaries, covering NBA games played between 11/3/2006 and 3/26/2017; some games have multiple summaries. The summaries have been randomly split into training, validation, and test sets consisting of 7633, 1635, and 1635 summaries, respectively.
+The sbnation data can be found in sbnation/[train|valid|test].json. There are 10903 distinct sbnation summaries, covering NBA games played between 11/3/2006 and 3/26/2017; some games have multiple summaries. The summaries have been randomly split into training, validation, and test sets consisting of 7633, 1635, and 1635 summaries, respectively.
 
 # Data Format
 Each file is utf-8 encoded json, and contains a list of json objects corresponding to each aligned summary/data pair. These json objects have the following fields:
